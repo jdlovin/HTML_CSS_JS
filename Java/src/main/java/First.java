@@ -1,5 +1,4 @@
 import javax.servlet.*;
-import java.io.IOException;
 
 public class First implements Servlet {
 
