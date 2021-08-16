@@ -68,3 +68,6 @@ Binding(COMMAND+SHIFT+T,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2021-08-16 16:55:06.826
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.YcvKLFbS => OK
+
+!ENTRY org.eclipse.ui 2 2 2021-08-16 17:14:32.870
+!MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
