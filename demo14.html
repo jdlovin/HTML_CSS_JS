@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+
+    <form action="" onsubmit="onSubmit(event)" name="userForm" method="post">
+    
+    <div>
+        <label for="">Username</label>
+        <input type="text" name="username" id="username" placeholder="Username">
+    </div>
+
+   <div>
+       <label for="">Email</label>
+       <input type="email" name="email" id="email" placeholder="Email">
+   </div>
+
+   <div>
+       <label for="">Password</label>
+       <input type="password" name="password" id="password" placeholder="Password">
+   </div>
+
+   <div>
+       <label for="">Confirm Password</label>
+       <input type="password" name="cpassword" id="cpassword" placeholder="Confirm Password">
+   </div>
+
+   <div>
+        <input type="submit" value="Register">       
+   </div>
+</form>
+
+<script>
+    function onSubmit(event){
+        event.preventDefault()
+
+        var name = document.userForm.username.value;
+        var email = document.userForm.email.value;
+        var password = document.userForm.password.value;
+        var cpassword = document.userForm.cpassword.value;
+
+        
+        if(password != cpassword){
+            alert('Password does not match');
+        }
+        
+        if(name == null || name == ''){
+            alert('Name is empty');
+        }
+
+        if(password == null || password ==''){
+            alert('Password be empty af');
+        }
+    }
+</script>
+
+
+</body>
+</html>
