@@ -51,5 +51,25 @@
   <url-pattern>/calculate</url-pattern>
   </servlet-mapping>
   
+   <servlet>
+  <servlet-name>firstpage</servlet-name>
+  <servlet-class>com.joshlovin.FirstPage</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>firstpage</servlet-name>
+  <url-pattern>/firstpage</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  <servlet-name>secondpage</servlet-name>
+  <servlet-class>com.joshlovin.SecondPage</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>secondpage</servlet-name>
+  <url-pattern>/secondpage</url-pattern>
+  </servlet-mapping>
+  
   
 </web-app>
