@@ -14,6 +14,8 @@
 </head>
 <body>
     <div class="wrapper">
+        <h1>The Calculator</h1>
+        <form action="calculate" method="post">
         <table>
             <tr>
                 <td>Enter First Number</td>
@@ -27,10 +29,10 @@
                 <td>Choose operator</td>
                 <td>
                     <select name="operator">
-                        <option value="*">Multiply</option>
-                        <option value="-">Subtract</option>
-                        <option value="+">Add</option>
-                        <option value="/">Multiply</option>
+                        <option value="multiply">Multiply</option>
+                        <option value="subtract">Subtract</option>
+                        <option value="add">Add</option>
+                        <option value="divide">Divide</option>
                     </select>
                 </td>
             </tr>
@@ -40,7 +42,7 @@
                 </td>
             </tr>
         </table>
-
+    </form>
     </div>
 
 

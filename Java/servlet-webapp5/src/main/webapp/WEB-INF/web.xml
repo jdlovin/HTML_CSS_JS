@@ -41,5 +41,15 @@
   <url-pattern>/register</url-pattern>
   </servlet-mapping>
   
+   <servlet>
+  <servlet-name>calculate</servlet-name>
+  <servlet-class>com.joshlovin.CalcServlet</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  <servlet-name>calculate</servlet-name>
+  <url-pattern>/calculate</url-pattern>
+  </servlet-mapping>
+  
   
 </web-app>
