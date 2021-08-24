@@ -8,9 +8,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 </head>
 <body>
-    <!-- <marquee>I said biiiiihhhhhhhh</marquee> -->
     <div>
-        <button class="btn btn-dark" onclick="getData()">Get Data</button>
+        <button class="btn btn-dark" onclick="getData()">Get albums</button>
         <div id="result">
 
         </div>
@@ -18,7 +17,6 @@
     <script>
         function getData(){
             var request = new XMLHttpRequest();
-
             request.open('GET', 'https://jsonplaceholder.typicode.com/photos', true)
 
             request.onreadystatechange = function(){
@@ -26,11 +24,11 @@
                     var response = this.responseText;
                     var data = JSON.parse(response);
                     var text = ''
-                    text += '<table class="table table-bordered"><tr><th>Title</th><th>Album cover</th></tr>'
-                        for(var i = 0; i < data.length; i++ ){
-                            text += '<tr><td>'+ data[i].title +'</td><td><img src="'+ data[i].thumbnailUrl +'"/></td></tr>'
+                    text += '<div class="container"><div class="row">'
+                        for(var i = 0; i < data.length; i++){
+                            text += '<div class="col"><img src="' + data[i].thumbnailUrl + '"/></div>'
                         }
-                        text += '</table>'
+                        text += '</div></div>'
                         document.getElementById('result').innerHTML = text;
                 }
             }
