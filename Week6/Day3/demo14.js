@@ -8,7 +8,7 @@ var Calculator = /** @class */ (function () {
     };
     return Calculator;
 }());
-var calculator = new Calculator(10, 40);
+var calculator = new Calculator(10);
 calculator.x = 20;
 calculator.y = 40;
 calculator.addNumber();

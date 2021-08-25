@@ -2,7 +2,7 @@ class Calculator{
     x: number;
     y: number;
 
-    constructor(x?: number, y?: number){
+    constructor(x: number, y?: number){
         this.y = y;
         this.x = x;
     }
@@ -13,7 +13,7 @@ class Calculator{
 }
 
 
-let calculator = new Calculator(10, 40);
+let calculator = new Calculator(10);
 calculator.x = 20;
 calculator.y = 40;
 calculator.addNumber();
