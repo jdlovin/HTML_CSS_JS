@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bb19570d-0c47-4d1f-9863-208bbf24df30" name="Changes" comment="servlet project">
+      <change afterPath="$PROJECT_DIR$/../Emp_data/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Emp_data/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Session_Login/src/main/java/com/joshlovin/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/Session_Login/src/main/java/com/joshlovin/LoginServlet.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1wp3WeW5sU85Kom07DZK7XZNbbv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY" nameIsGenerated="true">
+      <option name="adminPort" value="8003" />
+      <option name="contextPath" value="/servlet-webapp2" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="envOptions" />
+      <option name="passParentEnvironmentVariables" value="true" />
+      <option name="port" value="8082" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/10.0.10" />
+          <option name="number" value="0" />
+          <option name="path" value="$USER_HOME$/Downloads/apache-tomcat-10.0.10" />
+          <option name="version" value="10.0.10.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bb19570d-0c47-4d1f-9863-208bbf24df30" name="Changes" comment="" />
+      <created>1629141735398</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629141735398</updated>
+    </task>
+    <task id="LOCAL-00001" summary="servlet project">
+      <created>1629146658553</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629146658553</updated>
+    </task>
+    <task id="LOCAL-00002" summary="servlet project">
+      <created>1629146713593</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1629146713593</updated>
+    </task>
+    <task id="LOCAL-00003" summary="servlet project">
+      <created>1629148500846</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1629148500846</updated>
+    </task>
+    <task id="LOCAL-00004" summary="servlet project">
+      <created>1629150187658</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1629150187658</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.jsp" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="servlet project" />
+    <option name="LAST_COMMIT_MESSAGE" value="servlet project" />
+  </component>
+</project>
